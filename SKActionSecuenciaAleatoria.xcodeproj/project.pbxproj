@@ -17,7 +17,6 @@
 		4917A18018B6B5D400B8D551 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4917A17E18B6B5D400B8D551 /* Main.storyboard */; };
 		4917A18318B6B5D400B8D551 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4917A18218B6B5D400B8D551 /* ViewController.m */; };
 		4917A18618B6B5D400B8D551 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4917A18518B6B5D400B8D551 /* MyScene.m */; };
-		4917A18818B6B5D400B8D551 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 4917A18718B6B5D400B8D551 /* Spaceship.png */; };
 		4917A18A18B6B5D400B8D551 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4917A18918B6B5D400B8D551 /* Images.xcassets */; };
 		4917A19118B6B5D400B8D551 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4917A19018B6B5D400B8D551 /* XCTest.framework */; };
 		4917A19218B6B5D400B8D551 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4917A16A18B6B5D400B8D551 /* Foundation.framework */; };
@@ -53,7 +52,6 @@
 		4917A18218B6B5D400B8D551 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4917A18418B6B5D400B8D551 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
 		4917A18518B6B5D400B8D551 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
-		4917A18718B6B5D400B8D551 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		4917A18918B6B5D400B8D551 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4917A18F18B6B5D400B8D551 /* SKActionSecuenciaAleatoriaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKActionSecuenciaAleatoriaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4917A19018B6B5D400B8D551 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -128,7 +126,6 @@
 				4917A18218B6B5D400B8D551 /* ViewController.m */,
 				4917A18418B6B5D400B8D551 /* MyScene.h */,
 				4917A18518B6B5D400B8D551 /* MyScene.m */,
-				4917A18718B6B5D400B8D551 /* Spaceship.png */,
 				4917A18918B6B5D400B8D551 /* Images.xcassets */,
 				4917A17318B6B5D400B8D551 /* Supporting Files */,
 			);
@@ -242,7 +239,6 @@
 			files = (
 				4917A17718B6B5D400B8D551 /* InfoPlist.strings in Resources */,
 				4917A18A18B6B5D400B8D551 /* Images.xcassets in Resources */,
-				4917A18818B6B5D400B8D551 /* Spaceship.png in Resources */,
 				4917A18018B6B5D400B8D551 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -476,6 +472,7 @@
 				4917A1A218B6B5D400B8D551 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4917A1A318B6B5D400B8D551 /* Build configuration list for PBXNativeTarget "SKActionSecuenciaAleatoriaTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +481,7 @@
 				4917A1A518B6B5D400B8D551 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
